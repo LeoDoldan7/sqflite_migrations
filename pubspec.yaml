@@ -1,6 +1,6 @@
 name: sqflite_migrations
 description: Migrations manager for sqflite.
-version: 0.1.0
+version: 0.1.1
 homepage: https://github.com/LeandroDoldan/sqflite_migrations
 author: Leandro Doldan <leandromdoldan@gmail.com>
 
