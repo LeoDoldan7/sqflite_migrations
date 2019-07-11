@@ -20,11 +20,11 @@ import 'package:sqflite_migrations/sqflite_migrations.dart';
 
 ## Creating a migration
 
-Create a new instance of the `Migration` class you imported fromt he package. 
+Create a new instance of the `Migration` class you imported from the package. 
 
 Its attributes are:
 - The migration's `name`, which should be unique.
-- An `up` method that must return the query you want to run when the migration is ran.
+- An `up` method that must return the query you want to run when the migration is run.
 - A `down` method that returns the query you want to run when the migration is rolledback.
 
 Example:
