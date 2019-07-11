@@ -84,3 +84,12 @@ Example:
     undoMigrations(db, newVersion, migrations);
   }
 ```
+
+In case you passed all the parameters the `openDatabase` function should look like this:
+```
+    Database db = await openDatabase(path,
+        version: _databaseVersion,
+        onCreate: _onCreate,
+        onUpgrade: onUpgrade,
+        onDowngrade: onDowngrade);
+```
