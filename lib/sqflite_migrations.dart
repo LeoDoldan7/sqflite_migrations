@@ -1,6 +1,7 @@
 import 'package:sqflite/sqflite.dart';
 
 import 'package:sqflite_migrations/src/models/models.dart';
+export 'package:sqflite_migrations/src/models/models.dart';
 
 final String migrationsTable = "MigrationsMeta";
 
